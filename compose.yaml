@@ -3,7 +3,7 @@ services:
     build:
       context: appache-php
     ports:
-      - '8080:80'
+      - '8082:80'
     volumes:
       - ./appache-php:/var/www/html/
   backend:
